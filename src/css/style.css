@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    max-width: 1170px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.cabecalho .logo {
+    width: 130px;
+}
+
+.cabecalho .info .menu {
+    display: flex;
+}
+
+.cabecalho .info .menu .item {
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.cabecalho .info .menu .item a {
+    padding: 15px;
+    transition: .3s ease-in-out;
+    font-family: 'Kanit', Courier, monospace;
+}
+
+.cabecalho .info .menu .item a:hover {
+    background-color: #ab5f5f;
+    border-radius: 30px;
+    color: #FFF;
+}
