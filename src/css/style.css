@@ -43,3 +43,122 @@ img {
     border-radius: 30px;
     color: #FFF;
 }
+
+.conteudo-principal .paineis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    position: relative;
+}
+
+.conteudo-principal .paineis .imagem-painel {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(70%);
+}
+
+.conteudo-principal .paineis .projeto1 {
+    background-image: url('../img/painel2.jpg');
+}
+
+.conteudo-principal .paineis .projeto2 {
+    background-image: url('');
+}
+
+.conteudo-principal .paineis .projeto3 {
+    background-image: url('');
+}
+
+.conteudo-principal .paineis .titulo {
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Nunito', Courier, monospace;
+}
+
+.conteudo-principal .paineis .seta {
+    background-image: url('../img/seta.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    text-indent: 100%;
+    overflow: hidden;
+}
+
+.conteudo-principal .paineis .seta.btn-voltar {
+    left: 20px;
+    transform: rotateY(180deg);
+}
+
+.conteudo-principal .paineis .seta.btn-avancar {
+    right: 20px;
+}
+
+.quem-somos {
+    background-color: #a17f7f;
+}
+
+.quem-somos .conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.quem-somos .conteudo .informacoes {
+    width: 48%;
+    border: 1px solid saddlebrown;
+}
+
+.quem-somos .conteudo .informacoes .titulo {
+    font-size: 50px;
+    color: #7f97a1;
+    margin-bottom: 20px;
+    font-family: 'Kanit', Courier, monospace;
+}
+
+.quem-somos .conteudo .informacoes .texto {
+    line-height: 1.5;
+    color: #FFF;
+    font-family: 'Nunito', Courier, monospace;
+    font-weight: 100;
+    padding: 10px;
+}
+
+.rodape {
+    border: 1px solid saddlebrown;
+    padding: 10px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rodape .info-rodape ul {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.rodape .info-rodape a {
+    border: 1px solid black;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 10px;
+    height: 65px;
+    transition: .3s ease-in-out;
+}
+
+.rodape .info-rodape a:hover {
+    background-color: #ab5f5f;
+}

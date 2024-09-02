@@ -1,0 +1,38 @@
+@media(max-width: 680px) {
+    .cabecalho {
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .imagem {
+        display: none;
+    }
+}
+
+@media(max-width: 900px) {
+    .conteudo-principal .paineis {
+        height: 500px;
+    }
+
+    .conteudo-principal .paineis .titulo {
+        font-size: 20px;
+    }
+
+    .conteudo-principal .paineis .seta.btn-voltar {
+        height: 20px;
+    }
+    
+    .conteudo-principal .paineis .seta.btn-avancar {
+        height: 20px;
+    }
+
+    .quem-somos .conteudo .informacoes .titulo {
+        font-size: 40px;
+    }
+
+    .quem-somos .conteudo .informacoes {
+        text-align: center;
+        min-width: 276px;
+    }
+}
